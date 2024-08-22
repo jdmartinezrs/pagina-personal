@@ -1,0 +1,33 @@
+#resultados{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+#resultados div{
+    margin: 10px;
+    border: 1px solid black;
+}
+
+
+@keyframes slideInOut {
+    0% {
+        transform: translateX(100%);
+        opacity: 1;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.slide {
+    display: inline-block;
+    white-space: nowrap;
+    animation: slideInOut 3s ease forwards;
+}

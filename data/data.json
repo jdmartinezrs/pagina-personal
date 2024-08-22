@@ -1,0 +1,439 @@
+
+
+[
+    {
+      "especie_id": "64f4512a8b3e2c1d4f5a6b7c",
+      "nombre_comun": "Guacamayo Azul y Amarillo",
+      "nombre_cientifico": "Ara ararauna"
+    },
+    {
+      "especie_id": "64f4513b9c4d3e2f5a6b7c8d",
+      "nombre_comun": "Anaconda Verde",
+      "nombre_cientifico": "Eunectes murinus"
+    },
+    {
+      "especie_id": "64f4514c0d5e4f3a6b7c8d9e",
+      "nombre_comun": "Delfín del Amazonas",
+      "nombre_cientifico": "Inia geoffrensis"
+    },
+    {
+      "especie_id": "64f4515d1e6f5a4b7c8d9e0f",
+      "nombre_comun": "Pereza de Tres Dedos",
+      "nombre_cientifico": "Bradypus tridactylus"
+    },
+    {
+      "especie_id": "64f4516e2f7a6b5c8d9e0f1a",
+      "nombre_comun": "Jaguar",
+      "nombre_cientifico": "Panthera onca"
+    },
+    {
+      "especie_id": "64f4517f3a8b7c6d9e0f1a2b",
+      "nombre_comun": "Capibara",
+      "nombre_cientifico": "Hydrochoerus hydrochaeris"
+    },
+    {
+      "especie_id": "64f451804b9c8d7e0f1a2b3c",
+      "nombre_comun": "Hoatzín",
+      "nombre_cientifico": "Opisthocomus hoazin"
+    },
+    {
+      "especie_id": "64f451915c0d9e8f1a2b3c4d",
+      "nombre_comun": "Rana de Cristal",
+      "nombre_cientifico": "Hyalinobatrachium valerioi"
+    },
+    {
+      "especie_id": "64f451a26d1e0f9a2b3c4d5e",
+      "nombre_comun": "Hormiga Bala",
+      "nombre_cientifico": "Paraponera clavata"
+    },
+    {
+      "especie_id": "64f451b37e2f1a0b3c4d5e6f",
+      "nombre_comun": "Árbol de la Seringa",
+      "nombre_cientifico": "Hevea brasiliensis"
+    },
+    {
+      "especie_id": "64f451c48f3b2a1d4e6f7b8c",
+      "nombre_comun": "Tucán Toco",
+      "nombre_cientifico": "Ramphastos toco"
+    },
+    {
+      "especie_id": "64f451d59f4c3b2d5e6f8a9b",
+      "nombre_comun": "Mono Araña",
+      "nombre_cientifico": "Ateles paniscus"
+    },
+    {
+      "especie_id": "64f451e6af5d4c3e6f7b9a0c",
+      "nombre_comun": "Caimán Negro",
+      "nombre_cientifico": "Melanosuchus niger"
+    },
+    {
+      "especie_id": "64f451f7bf6e5d4f7b8c9a1d",
+      "nombre_comun": "Águila Harpía",
+      "nombre_cientifico": "Harpia harpyja"
+    },
+    {
+      "especie_id": "64f45208cf7f6d5f8b9a0b2c",
+      "nombre_comun": "Rana Dardo Venenosa",
+      "nombre_cientifico": "Dendrobates tinctorius"
+    },
+    {
+      "especie_id": "64f45219df806e6f9c0b1c3d",
+      "nombre_comun": "Oso Hormiguero Gigante",
+      "nombre_cientifico": "Myrmecophaga tridactyla"
+    },
+    {
+      "especie_id": "64f4522aef917f7g0d1c2d4e",
+      "nombre_comun": "Orquídea Negra",
+      "nombre_cientifico": "Coelogyne pandurata"
+    },
+    {
+      "especie_id": "64f4523b0fa0288h1e2d3e5f",
+      "nombre_comun": "Cotorra Amazónica",
+      "nombre_cientifico": "Amazona amazonica"
+    },
+    {
+      "especie_id": "64f4524c1fb1399i2f3e4f6g",
+      "nombre_comun": "Boa Constrictor",
+      "nombre_cientifico": "Boa constrictor"
+    },
+    {
+      "especie_id": "64f4525d30c24a0j3g4f5h7i",
+      "nombre_comun": "Piraña Roja",
+      "nombre_cientifico": "Pygocentrus nattereri"
+    },
+    {
+      "especie_id": "64f4526e41d35b1k4h5g6i8j",
+      "nombre_comun": "Guacamayo Escarlata",
+      "nombre_cientifico": "Ara macao"
+    },
+    {
+      "especie_id": "64f4527f52e46c2l5i6h7j9k",
+      "nombre_comun": "Caimán de Anteojos",
+      "nombre_cientifico": "Caiman crocodilus"
+    },
+    {
+      "especie_id": "64f4529053f57d3m6j7i8k0l",
+      "nombre_comun": "Sapo de Caña",
+      "nombre_cientifico": "Rhinella marina"
+    },
+    {
+      "especie_id": "64f452a164g68e4n7k8i9j1m",
+      "nombre_comun": "Mariposa Morpho Azul",
+      "nombre_cientifico": "Morpho menelaus"
+    },
+    {
+      "especie_id": "64f452b275h79f5o8l9k0j2n",
+      "nombre_comun": "Pecarí de Collar",
+      "nombre_cientifico": "Pecari tajacu"
+    },
+    {
+      "especie_id": "64f452c386i80g6p9m0l1k3o",
+      "nombre_comun": "Tortuga Arrau",
+      "nombre_cientifico": "Podocnemis expansa"
+    },
+    {
+      "especie_id": "64f452d497j91h7q0n2m3l4p",
+      "nombre_comun": "Tamarino de Manto Dorado",
+      "nombre_cientifico": "Saguinus tripartitus"
+    },
+    {
+      "especie_id": "64f452e5a8k02i8r1o3m4n5q",
+      "nombre_comun": "Iguana Verde",
+      "nombre_cientifico": "Iguana iguana"
+    },
+    {
+      "especie_id": "64f452f6b9l13j9s2p4o5n6r",
+      "nombre_comun": "Paujil de Pico Azul",
+      "nombre_cientifico": "Crax alberti"
+    },
+    {
+      "especie_id": "64f45307c9m24k0t3q5p6o7s",
+      "nombre_comun": "Rana Mono",
+      "nombre_cientifico": "Phyllomedusa bicolor"
+    },
+    {
+      "especie_id": "64f45318da353l1u4r6q7p8t",
+      "nombre_comun": "Mono Aullador Rojo",
+      "nombre_cientifico": "Alouatta seniculus"
+    },
+    {
+      "especie_id": "64f45329eb464m2v5s7r8q9u",
+      "nombre_comun": "Palma de Cera",
+      "nombre_cientifico": "Ceroxylon quindiuense"
+    },
+    {
+      "especie_id": "64f4533afc575n3w6t8s9r0v",
+      "nombre_comun": "Tapir Amazónico",
+      "nombre_cientifico": "Tapirus terrestris"
+    },
+    {
+      "especie_id": "64f4534b0d686o4x7u9t0s1w",
+      "nombre_comun": "Martín Pescador",
+      "nombre_cientifico": "Chloroceryle amazona"
+    },
+    {
+      "especie_id": "64f4535c1e797p5y8v0u1t2x",
+      "nombre_comun": "Nutria Gigante",
+      "nombre_cientifico": "Pteronura brasiliensis"
+    },
+    {
+      "especie_id": "64f4536d2f8a8q6z9w1v2u3y",
+      "nombre_comun": "Cebú Rojo",
+      "nombre_cientifico": "Bos indicus"
+    },
+    {
+      "especie_id": "64f4537e309b9r7a0x2w3v4z",
+      "nombre_comun": "Mono Titi León Dorado",
+      "nombre_cientifico": "Leontopithecus rosalia"
+    },
+    {
+      "especie_id": "64f4538f41ac0s8b1y3x4w5a",
+      "nombre_comun": "Guacamayo Jacinto",
+      "nombre_cientifico": "Anodorhynchus hyacinthinus"
+    },
+    {
+      "especie_id": "64f453a052bd1t9c2z4y5x6b",
+      "nombre_comun": "Puma",
+      "nombre_cientifico": "Puma concolor"
+    },
+    {
+      "especie_id": "64f453b163ce2u0d3a5z6y7c",
+      "nombre_comun": "Mono Nocturno",
+      "nombre_cientifico": "Aotus nigriceps"
+    },
+    {
+      "especie_id": "64f453c274df3v1e4b6a7z8d",
+      "nombre_comun": "Arañero Coronicastaño",
+      "nombre_cientifico": "Epinecrophylla haematonota"
+    },
+    {
+      "especie_id": "64f453d385e04w2f5c7b8a9e",
+      "nombre_comun": "Trogón Cuelliblanco",
+      "nombre_cientifico": "Trogon viridis"
+    },
+    {
+      "especie_id": "64f453e496f15x3g6d8c9b0f",
+      "nombre_comun": "Caracol Gigante Africano",
+      "nombre_cientifico": "Achatina fulica"
+    },
+    {
+      "especie_id": "64f453f5a7g26y4h7e9d0c1g",
+      "nombre_comun": "Mono Saki de Cara Blanca",
+      "nombre_cientifico": "Pithecia pithecia"
+    },
+    {
+      "especie_id": "64f45406b8h37z5i8f0e1d2h",
+      "nombre_comun": "Águila Pescadora",
+      "nombre_cientifico": "Pandion haliaetus"
+    },
+    {
+      "especie_id": "64f45417c9i48a6j9g1f2e3i",
+      "nombre_comun": "Boa de la Amazonía",
+      "nombre_cientifico": "Corallus hortulanus"
+    },
+    {
+      "especie_id": "64f45428d0j59b7k0h2g3f4j",
+      "nombre_comun": "Tarántula Gigante",
+      "nombre_cientifico": "Theraphosa blondi"
+    },
+    {
+      "especie_id": "64f45439e1k6ac8l1i3h4g5k",
+      "nombre_comun": "Mono Choro de Cola Amarilla",
+      "nombre_cientifico": "Lagothrix flavicauda"
+    },
+    {
+      "especie_id": "64f4544af2l7bd9m2j4i5h6l",
+      "nombre_comun": "Mariposa Alas de Cristal",
+      "nombre_cientifico": "Greta oto"
+    },
+    {
+      "especie_id": "64f4545b03m8ce0n3k5j6i7m",
+      "nombre_comun": "Tapaculo del Amazonas",
+      "nombre_cientifico": "Myrmothera campanisona"
+    },
+    {
+      "especie_id": "64f4546c14n9df1o4l6k7j8n",
+      "nombre_comun": "Hormiga Limón",
+      "nombre_cientifico": "Myrmelachista schumanni"
+    },
+    {
+      "especie_id": "64f4547d25o0eg2p5m7l8k9o",
+      "nombre_comun": "Mono Araña Negro",
+      "nombre_cientifico": "Ateles chamek"
+    },
+    {
+      "especie_id": "64f4548e36p1fh3q6n8m9l0p",
+      "nombre_comun": "Sapo de Surinam",
+      "nombre_cientifico": "Pipa pipa"
+    },
+    {
+      "especie_id": "64f4549f47q2gi4r7o9n0m1q",
+      "nombre_comun": "Mono Tití Cabezón",
+      "nombre_cientifico": "Saguinus oedipus"
+    },
+    {
+      "especie_id": "64f454b058r3hj5s8p0o1n2r",
+      "nombre_comun": "Tapir de Montaña",
+      "nombre_cientifico": "Tapirus pinchaque"
+    },
+    {
+      "especie_id": "64f454c169s4ik6t9q1p2o3s",
+      "nombre_comun": "Mono León de Capa Dorada",
+      "nombre_cientifico": "Leontopithecus chrysomelas"
+    },
+    {
+      "especie_id": "64f454d27at5jl7u0r2q3p4t",
+      "nombre_comun": "Armadillo de Nueve Bandas",
+      "nombre_cientifico": "Dasypus novemcinctus"
+    },
+    {
+      "especie_id": "64f454e38bu6km8v1s4r5q6u",
+      "nombre_comun": "Coendú de Cola Prehensil",
+      "nombre_cientifico": "Coendou prehensilis"
+    },
+    {
+      "especie_id": "64f454f49cv7ln9w2t5s6r7v",
+      "nombre_comun": "Pez Gato de la Amazonía",
+      "nombre_cientifico": "Phractocephalus hemioliopterus"
+    },
+    {
+      "especie_id": "64f45505adx8mo0x3u6t7s8w",
+      "nombre_comun": "Mono Capuchino",
+      "nombre_cientifico": "Cebus apella"
+    },
+    {
+      "especie_id": "64f45516bey9np1y4v7u8t9x",
+      "nombre_comun": "Hormiguero Pigmeo",
+      "nombre_cientifico": "Cyclopes didactylus"
+    },
+    {
+      "especie_id": "64f45527cfz0oq2z5w8v9u0y",
+      "nombre_comun": "Martín Pescador Verde",
+      "nombre_cientifico": "Chloroceryle americana"
+    },
+    {
+      "especie_id": "64f45538dg01pr3a6x9w0v1z",
+      "nombre_comun": "Mono Nocturno del Amazonas",
+      "nombre_cientifico": "Aotus azarae"
+    },
+    {
+      "especie_id": "64f45549eh12qs4b7y0x2w3a",
+      "nombre_comun": "Mono Tití de Cabeza Blanca",
+      "nombre_cientifico": "Saguinus oedipus"
+    },
+    {
+      "especie_id": "64f4555afj23rt5c8z1y3x4b",
+      "nombre_comun": "Mono Tití de Manos Amarillas",
+      "nombre_cientifico": "Saguinus midas"
+    },
+    {
+      "especie_id": "64f4556bgk34su6d9a2z4y5c",
+      "nombre_comun": "Mono Choro Cola Amarilla",
+      "nombre_cientifico": "Lagothrix flavicauda"
+    },
+    {
+      "especie_id": "64f4557chl45tv7e0b3a5z6d",
+      "nombre_comun": "Mono Saki",
+      "nombre_cientifico": "Pithecia monachus"
+    },
+{       
+    "especie_id": "64f4558dij56uw8f1c4b6a7e",
+    "nombre_comun": "Mono Capuchino de Cara Blanca",
+    "nombre_cientifico": "Cebus capucinus"
+  },
+  {
+    "especie_id": "64f4559ejk67vx9g2d5c8b9f",
+    "nombre_comun": "Águila Arpia",
+    "nombre_cientifico": "Harpia harpyja"
+  },
+  {
+    "especie_id": "64f455afe0g78w0h3e7d9c2g",
+    "nombre_comun": "Tigre de Bengala",
+    "nombre_cientifico": "Panthera tigris tigris"
+  },
+  {
+    "especie_id": "64f455b0f1h89x1i4f8e0d3h",
+    "nombre_comun": "Guacamayo de Alas Azules",
+    "nombre_cientifico": "Anodorhynchus leari"
+  },
+  {
+    "especie_id": "64f455c1g2i90y2j5g9f1e4i",
+    "nombre_comun": "Cebú Africano",
+    "nombre_cientifico": "Syncerus caffer"
+  },
+  {
+    "especie_id": "64f455d2h3j01z3k6h0g2f5j",
+    "nombre_comun": "Tapir Baird",
+    "nombre_cientifico": "Tapirus bairdii"
+  },
+  {
+    "especie_id": "64f455e3i4k12a4l7i1h3g6k",
+    "nombre_comun": "Jaguar",
+    "nombre_cientifico": "Panthera onca"
+  },
+  {
+    "especie_id": "64f455f4j5l23b5m8j2i4h7l",
+    "nombre_comun": "Boa Constrictor",
+    "nombre_cientifico": "Boa constrictor"
+  },
+  {
+    "especie_id": "64f45605k6m34c6n9k3j5i8m",
+    "nombre_comun": "Caiman Negro",
+    "nombre_cientifico": "Melanosuchus niger"
+  },
+  {
+    "especie_id": "64f45616l7n45d7o0l4k6j9n",
+    "nombre_comun": "Pájaro Pavo Real",
+    "nombre_cientifico": "Pavo cristatus"
+  },
+  {
+    "especie_id": "64f45627m8o56e8p1m5l7k0o",
+    "nombre_comun": "Mico Leones",
+    "nombre_cientifico": "Leontopithecus rosalia"
+  },
+  {
+    "especie_id": "64f45638n9p67f9q2n6m8l1p",
+    "nombre_comun": "Panda Rojo",
+    "nombre_cientifico": "Ailurus fulgens"
+  },
+  {
+    "especie_id": "64f45649o0q78g0r3o7n9m2q",
+    "nombre_comun": "Aguila Arpia",
+    "nombre_cientifico": "Harpia harpyja"
+  },
+  {
+    "especie_id": "64f4565ap1r89h1s4p8o0n3r",
+    "nombre_comun": "Gato Montés",
+    "nombre_cientifico": "Leopardus pardalis"
+  },
+  {
+    "especie_id": "64f4566bq2s90i2t5q9p1o4s",
+    "nombre_comun": "Serpiente Coral",
+    "nombre_cientifico": "Micrurus spp."
+  },
+  {
+    "especie_id": "64f4567cr3t01j3u6r0q2p5t",
+    "nombre_comun": "Camarón de Agua Dulce",
+    "nombre_cientifico": "Macrobrachium spp."
+  },
+  {
+    "especie_id": "64f4568ds4u12k4v7s1r3q6u",
+    "nombre_comun": "Pez Escorpión",
+    "nombre_cientifico": "Scorpaenidae"
+  },
+  {
+    "especie_id": "64f4569et5v23l5w8t2s4r7v",
+    "nombre_comun": "Tigre Blanco",
+    "nombre_cientifico": "Panthera tigris"
+  },
+  {
+    "especie_id": "64f456afg6w34m6x9u3v5p8w",
+    "nombre_comun": "Oso Panda",
+    "nombre_cientifico": "Ailuropoda melanoleuca"
+  },
+  {
+    "especie_id": "64f456bgh7x45n7y0v4w6q9x",
+    "nombre_comun": "Aguila Real",
+    "nombre_cientifico": "Aquila rapax"
+  }
+]
