@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animación</title>
+    <style>
+        @keyframes rotateAndSlide {
+            0% {
+                transform: translateX(100%) rotate(0deg);
+                opacity: 1;
+            }
+            50% {
+                transform: translateX(calc(50% - 90px)) rotate(360deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateX(-100%) rotate(720deg);
+                opacity: 0;
+            }
+        }
+
+        .slide {
+            display: inline-block;
+            white-space: nowrap;
+            animation: rotateAndSlide 9s ease-in-out forwards;
+            position: absolute;
+            transform-origin: center center; /* Ensure rotation is around the center */
+        }
+
+        #resultados {
+            position: relative; 
+            overflow: hidden; 
+            height: 300px; 
+            font-size: xx-large;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0; /* Color de fondo para visibilidad */
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div id="resultados">
+        <div id="circle"></div>
+    </div>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
