@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos base para el SVG */
+        .letra-svg {
+            width: 300px;
+            height: 300px;
+            display: block;
+            margin: 0 auto;
+            background-color: #f0f0f0; /* Fondo gris claro */
+            border: 1px solid #ccc; /* Borde opcional */
+        }
+        .svg-text {
+            font-size: 100px;
+            text-anchor: middle;
+            alignment-baseline: middle;
+            dominant-baseline: middle;
+            filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.5)); /* Sombra de texto por defecto */
+            transition: all 0.5s ease; /* Transición suave para animaciones */
+            transform-origin: center; /* Centro de transformación */
+        }
+        /* Estilos específicos para cada artista */
+        .duchamp {
+            animation: duchampAnimation 3s infinite;
+            fill: url(#duchamp-gradient);
+        }
+        .rauschenberg {
+            animation: rauschenbergAnimation 3s infinite;
+            fill: url(#rauschenberg-gradient);
+        }
+        .matisse {
+            animation: matisseAnimation 3s infinite;
+            fill: url(#matisse-gradient);
+        }
+        .klimt {
+            animation: klimtAnimation 3s infinite;
+            fill: url(#klimt-gradient);
+        }
+        .vangogh {
+            animation: vangoghAnimation 3s infinite;
+            fill: url(#vangogh-gradient);
+        }
+        .da-vinci {
+            animation: daVinciAnimation 3s infinite;
+            fill: url(#da-vinci-gradient);
+        }
+        .monet {
+            animation: monetAnimation 3s infinite;
+            fill: url(#monet-gradient);
+        }
+        .munch {
+            animation: munchAnimation 3s infinite;
+            fill: url(#munch-gradient);
+        }
+        /* Animaciones */
+        @keyframes duchampAnimation {
+            0% { transform: perspective(500px) rotateX(0deg) rotateY(0deg); }
+            50% { transform: perspective(500px) rotateX(20deg) rotateY(20deg); }
+            100% { transform: perspective(500px) rotateX(0deg) rotateY(0deg); }
+        }
+        @keyframes rauschenbergAnimation {
+            0% { transform: scale(1) rotateX(0deg); }
+            50% { transform: scale(1.2) rotateX(10deg); }
+            100% { transform: scale(1) rotateX(0deg); }
+        }
+        @keyframes matisseAnimation {
+            0% { transform: skewX(0deg) rotateZ(0deg); }
+            50% { transform: skewX(-10deg) rotateZ(10deg); }
+            100% { transform: skewX(0deg) rotateZ(0deg); }
+        }
+        @keyframes klimtAnimation {
+            0% { transform: skewY(0deg) scale(1); }
+            50% { transform: skewY(10deg) scale(1.1); }
+            100% { transform: skewY(0deg) scale(1); }
+        }
+        @keyframes vangoghAnimation {
+            0% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(-10deg) scale(1.1); }
+            100% { transform: rotate(0deg) scale(1); }
+        }
+        @keyframes daVinciAnimation {
+            0% { transform: scale(1) translateZ(0px); }
+            50% { transform: scale(1.1) translateZ(10px); }
+            100% { transform: scale(1) translateZ(0px); }
+        }
+        @keyframes monetAnimation {
+            0% { transform: skewX(0deg) scale(1); }
+            50% { transform: skewX(5deg) scale(1.05); }
+            100% { transform: skewX(0deg) scale(1); }
+        }
+        @keyframes munchAnimation {
+            0% { transform: rotate(0deg) scale(1); }
+            50% { transform: rotate(15deg) scale(1.1); }
+            100% { transform: rotate(0deg) scale(1); }
+        }
+        /* Degradados */
+        .duchamp-gradient {
+            stop-color: blue;
+            stop-opacity: 1;
+        }
+        .rauschenberg-gradient {
+            stop-color: green;
+            stop-opacity: 1;
+        }
+        .matisse-gradient {
+            stop-color: orange;
+            stop-opacity: 1;
+        }
+        .klimt-gradient {
+            stop-color: gold;
+            stop-opacity: 1;
+        }
+        .vangogh-gradient {
+            stop-color: purple;
+            stop-opacity: 1;
+        }
+        .da-vinci-gradient {
+            stop-color: brown;
+            stop-opacity: 1;
+        }
+        .monet-gradient {
+            stop-color: lightblue;
+            stop-opacity: 1;
+        }
+        .munch-gradient {
+            stop-color: red;
+            stop-opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Definición de degradados SVG -->
+    <svg width="0" height="0">
+        <defs>
+            <linearGradient id="duchamp-gradient">
+                <stop offset="0%" class="duchamp-gradient" />
+                <stop offset="100%" class="duchamp-gradient" />
+            </linearGradient>
+            <linearGradient id="rauschenberg-gradient">
+                <stop offset="0%" class="rauschenberg-gradient" />
+                <stop offset="100%" class="rauschenberg-gradient" />
+            </linearGradient>
+            <linearGradient id="matisse-gradient">
+                <stop offset="0%" class="matisse-gradient" />
+                <stop offset="100%" class="matisse-gradient" />
+            </linearGradient>
+            <linearGradient id="klimt-gradient">
+                <stop offset="0%" class="klimt-gradient" />
+                <stop offset="100%" class="klimt-gradient" />
+            </linearGradient>
+            <linearGradient id="vangogh-gradient">
+                <stop offset="0%" class="vangogh-gradient" />
+                <stop offset="100%" class="vangogh-gradient" />
+            </linearGradient>
+            <linearGradient id="da-vinci-gradient">
+                <stop offset="0%" class="da-vinci-gradient" />
+                <stop offset="100%" class="da-vinci-gradient" />
+            </linearGradient>
+            <linearGradient id="monet-gradient">
+                <stop offset="0%" class="monet-gradient" />
+                <stop offset="100%" class="monet-gradient" />
+            </linearGradient>
+            <linearGradient id="munch-gradient">
+                <stop offset="0%" class="munch-gradient" />
+                <stop offset="100%" class="munch-gradient" />
+            </linearGradient>
+        </defs>
+    </svg>
+
+    <!-- Contenedor SVG -->
+    <svg class="letra-svg" id="letra-svg" viewBox="0 0 100 100">
+        <text class="svg-text" id="svg-text" x="50%" y="50%">M</text>
+    </svg>
+
+    <!-- Formulario para ingresar el nombre del artista -->
+    <div style="text-align: center; margin-top: 20px;">
+        <input type="text" id="artistaInput" placeholder="Ingresa el nombre del artista" style="padding: 10px; font-size: 16px;">
+        <button onclick="aplicarEstilo()">Aplicar Estilo</button>
+    </div>
+
+    <script>
+        function cambiarFormaLetra(nombreArtista) {
+            const svgText = document.getElementById('svg-text');
+            svgText.className.baseVal = ''; // Limpiar clases anteriores
+            
+            switch (nombreArtista.toLowerCase()) {
+                case 'marcel duchamp':
+                    svgText.setAttribute('font-family', 'Courier New, monospace');
+                    svgText.setAttribute('fill', 'url(#duchamp-gradient)');
+                    svgText.setAttribute('transform', 'perspective(500px) rotateX(20deg) rotateY(20deg)');
+                    svgText.classList.add('duchamp');
+                    break;
+                case 'robert rauschenberg':
+                    svgText.setAttribute('font-family', 'Impact, sans-serif');
+                    svgText.setAttribute('fill', 'url(#rauschenberg-gradient)');
+                    svgText.setAttribute('transform', 'scale(1.2) translate(-10, -10)');
+                    svgText.classList.add('rauschenberg');
+                    break;
+                case 'henri matisse':
+                    svgText.setAttribute('font-family', 'Georgia, serif');
+                    svgText.setAttribute('fill', 'url(#matisse-gradient)');
+                    svgText.setAttribute('transform', 'skewX(-10deg) rotateZ(10deg)');
+                    svgText.classList.add('matisse');
+                    break;
+                case 'gustav klimt':
+                    svgText.setAttribute('font-family', 'Arial, sans-serif');
+                    svgText.setAttribute('fill', 'url(#klimt-gradient)');
+                    svgText.setAttribute('transform', 'skewY(10deg) scale(1.1)');
+                    svgText.classList.add('klimt');
+                    break;
+                case 'vincent van gogh':
+                    svgText.setAttribute('font-family', 'Times New Roman, serif');
+                    svgText.setAttribute('fill', 'url(#vangogh-gradient)');
+                    svgText.setAttribute('transform', 'rotate(-10deg) scale(1.1)');
+                    svgText.classList.add('vangogh');
+                    break;
+                case 'leonardo da vinci':
+                    svgText.setAttribute('font-family', 'Verdana, sans-serif');
+                    svgText.setAttribute('fill', 'url(#da-vinci-gradient)');
+                    svgText.setAttribute('transform', 'scale(1.1) translateZ(10px)');
+                    svgText.classList.add('da-vinci');
+                    break;
+                case 'claude monet':
+                    svgText.setAttribute('font-family', 'Tahoma, sans-serif');
+                    svgText.setAttribute('fill', 'url(#monet-gradient)');
+                    svgText.setAttribute('transform', 'skewX(5deg) scale(1.05)');
+                    svgText.classList.add('monet');
+                    break;
+                case 'edvard munch':
+                    svgText.setAttribute('font-family', 'Trebuchet MS, sans-serif');
+                    svgText.setAttribute('fill', 'url(#munch-gradient)');
+                    svgText.setAttribute('transform', 'rotate(15deg) scale(1.1)');
+                    svgText.classList.add('munch');
+                    break;
+                default:
+                    svgText.setAttribute('font-family', 'Arial, sans-serif');
+                    svgText.setAttribute('fill', 'black');
+                    svgText.setAttribute('transform', 'none');
+                    svgText.classList.remove('duchamp', 'rauschenberg', 'matisse', 'klimt', 'vangogh', 'da-vinci', 'monet', 'munch');
+            }
+        }
+
+        function aplicarEstilo() {
+            const artistaInput = document.getElementById('artistaInput').value;
+            cambiarFormaLetra(artistaInput);
+        }
+    </script>
+</body>
+</html>
